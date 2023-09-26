@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" modified="2023-09-24T03:53:54.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="eD_S3WDEd1zpCgu84koO" version="21.8.1" type="device">
+  <diagram name="Page-1" id="mx4kkmjVjTk8_6KnKxpx">
+    <mxGraphModel dx="1242" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-4" value="Frontend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="270" height="930" as="geometry">
+            <mxRectangle x="30" y="160" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-9" value="Minimal HTML webpage. Allows user to enter a YouTube video, estimate processing time, send a video for processing, check process/video status, view server status, view all completed videos&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-4">
+          <mxGeometry x="10" y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-22" value="UI Elements" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-4">
+          <mxGeometry x="10" y="130" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-14" value="Video Input (text input)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="20" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-16" value="Estimate Video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="20" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-15" value="Optional additional description (text input)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="130" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-17" value="Get/Checkin Video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="130" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-18" value="Process Video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="20" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-24" value="Processed Video Results View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-22">
+          <mxGeometry x="130" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-36" value="Process Flows" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-4">
+          <mxGeometry x="10" y="510" width="810" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-37" value="Submit YouTube link" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="10" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-46" value="Rec checkin UUID and estimate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-60" value="Checkin UUID &amp;amp; ID" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="240" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-67" value="Rec video details document" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="280" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-69" value="Get all processed videos" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="330" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-76" value="Rec all processed videos" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry x="30" y="370" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-78" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="230" as="sourcePoint" />
+            <mxPoint x="800" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-79" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="320" as="sourcePoint" />
+            <mxPoint x="800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-5" value="Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-4">
+          <mxGeometry x="280" width="270" height="930" as="geometry">
+            <mxRectangle x="310" y="160" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-11" value="C++ server using uWebsockets, and Llama.cpp to serve incoming requests. The service will run in a dockerized container. (currently only intended to run on a MacBook)&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-25" value="Threaded Processes" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="130" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-26" value="HTTP Server" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-25">
+          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-27" value="Nth LLM Processing Thread" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-25">
+          <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-28" value="Process Handler (handles N LLMs)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-25">
+          <mxGeometry x="50" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-5" source="1w-vQ5bawcPngWFfEJCo-38" target="1w-vQ5bawcPngWFfEJCo-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-5" source="1w-vQ5bawcPngWFfEJCo-38" target="1w-vQ5bawcPngWFfEJCo-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-38" value="Retrieve all comments" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="520" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-40" value="Estimate" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-5" source="1w-vQ5bawcPngWFfEJCo-44" target="1w-vQ5bawcPngWFfEJCo-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-44" value="Pass to Handler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="140" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-58" value="Complete" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-5" source="1w-vQ5bawcPngWFfEJCo-48" target="1w-vQ5bawcPngWFfEJCo-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-48" value="LLM process comments" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="600" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-50" value="Store to DB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="700" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-59" value="Complete" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-5" source="1w-vQ5bawcPngWFfEJCo-57" target="1w-vQ5bawcPngWFfEJCo-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-57" value="Pass to Handler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="650" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-61" value="Check Handler Data Map &amp;amp; DB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="750" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-70" value="Get all processed videos" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-5">
+          <mxGeometry x="10" y="840" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-37" target="1w-vQ5bawcPngWFfEJCo-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-40" target="1w-vQ5bawcPngWFfEJCo-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-60" target="1w-vQ5bawcPngWFfEJCo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-61" target="1w-vQ5bawcPngWFfEJCo-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-69" target="1w-vQ5bawcPngWFfEJCo-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1w-vQ5bawcPngWFfEJCo-4" source="1w-vQ5bawcPngWFfEJCo-70" target="1w-vQ5bawcPngWFfEJCo-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-6" value="Database" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="270" height="930" as="geometry">
+            <mxRectangle x="590" y="160" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-13" value="MongoDB will suffice and store the complete result of the comment parsing. Video&#39;s with the same ID will be overwritten.&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-6">
+          <mxGeometry x="10" y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-29" value="Video Details Document" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-6">
+          <mxGeometry x="10" y="130" width="250" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-34" value="&lt;b&gt;&lt;u&gt;id:&lt;/u&gt;&lt;/b&gt; YouTube video id&lt;br&gt;&lt;b&gt;&lt;u&gt;uuid&lt;/u&gt;&lt;/b&gt;: server provided uuid&lt;br&gt;&lt;b&gt;&lt;u&gt;description&lt;/u&gt;&lt;/b&gt;: YouTube video description&lt;br&gt;&lt;b&gt;&lt;u&gt;provided_description&lt;/u&gt;&lt;/b&gt;: optional description for more information&lt;br&gt;&lt;b&gt;&lt;u&gt;title&lt;/u&gt;&lt;/b&gt;: title of YouTube video&lt;br&gt;&lt;b&gt;&lt;u&gt;processed&lt;/u&gt;&lt;/b&gt;: number of comments processed&lt;br&gt;&lt;b&gt;&lt;u&gt;to_process&lt;/u&gt;&lt;/b&gt;: comments yet to be processed&lt;br&gt;&lt;b&gt;&lt;u&gt;raw_comments&lt;/u&gt;&lt;/b&gt;: list of comment from video and time comment published&lt;br&gt;&lt;b&gt;&lt;u&gt;processed_comments&lt;/u&gt;&lt;/b&gt;: list of {&lt;b&gt;&lt;u&gt;raw_comment: as above&lt;/u&gt;&lt;/b&gt;, &lt;b&gt;&lt;u&gt;tokens&lt;/u&gt;&lt;/b&gt;: number of tokens in comment,&amp;nbsp;&lt;b&gt;&lt;u&gt;isContentComment&lt;/u&gt;&lt;/b&gt;: bool, true if a content comment,&amp;nbsp;&lt;b&gt;&lt;u&gt;reason&lt;/u&gt;&lt;/b&gt;: why model thinks is/isn&#39;t content,&amp;nbsp;&lt;u style=&quot;font-weight: bold;&quot;&gt;processing_time:&lt;/u&gt;&amp;nbsp;seconds LLM took on comment&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-29">
+          <mxGeometry x="10" y="30" width="230" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-54" value="Create/Overwrite document id" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-6">
+          <mxGeometry x="10" y="700" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-62" value="Search document by id" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-6">
+          <mxGeometry x="10" y="750" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-72" value="Find all documents" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1w-vQ5bawcPngWFfEJCo-6">
+          <mxGeometry x="10" y="840" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-12" value="&lt;h1&gt;Comment Content Aggregator&lt;/h1&gt;&lt;p&gt;Problem statement: Content creators get large amount of comments on their video content. Often times commenters will ask, suggest or otherwise provide an idea or topic for the creator to cover in future video content. However these comments may be difficult to parse out of the vast text space onto of being time consuming.&lt;/p&gt;&lt;p&gt;Solution: Large Language models can be utilized to read comments on a video and based on the video&#39;s description determine which comments are content suggestions.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1w-vQ5bawcPngWFfEJCo-50" target="1w-vQ5bawcPngWFfEJCo-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1w-vQ5bawcPngWFfEJCo-62" target="1w-vQ5bawcPngWFfEJCo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1w-vQ5bawcPngWFfEJCo-61" target="1w-vQ5bawcPngWFfEJCo-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1w-vQ5bawcPngWFfEJCo-70" target="1w-vQ5bawcPngWFfEJCo-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1w-vQ5bawcPngWFfEJCo-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1w-vQ5bawcPngWFfEJCo-72" target="1w-vQ5bawcPngWFfEJCo-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

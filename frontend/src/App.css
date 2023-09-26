@@ -1,0 +1,125 @@
+/* 
+Monokai Colors in RGB and HEX format
+Background: (46, 46, 46); #2e2e2e
+Comments: (121, 121, 121); #797979
+White: (214, 214, 214); #d6d6d6
+Yellow: (229, 181, 103); #e5b567
+Green: (180, 210, 115); #b4d273
+Orange: (232, 125, 62); #e87d3e
+Purple: (158, 134, 200); #9e86c8
+Pink: (176, 82, 121); #b05279
+Blue: (108, 153, 187); #6c99bb
+*/
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  overflow: hidden;
+  background-color: #2e2e2e;
+  color: #d6d6d6;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  font-size: 25px;
+  margin-top: 2%;
+}
+
+.input-container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input {
+  width: 75%;
+  height: 30px;
+  font-size: 1rem;
+  background-color: #d6d6d6;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+}
+
+textarea { 
+  width: 75%;
+  font-size: 1rem;
+  background-color: #d6d6d6;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.button-container {
+  height: 100%;
+  margin: auto;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  margin: 2%;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #9e86c8;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+button:hover {
+  background-color: #6c99bb;
+}
+
+button:disabled {
+  background-color: #e87d3e;
+}
+
+.estimate-container {
+  width: 25%;
+  margin: auto;
+}
+
+.data-container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.process-container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.scrollable-container {
+  height: 65%;
+  width: 95%;
+  margin: auto;
+  border-radius: 8px;
+  text-align:left;
+  overflow: scroll;
+}
