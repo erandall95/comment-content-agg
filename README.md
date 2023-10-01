@@ -1,5 +1,5 @@
 # Comment Content Aggregator
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
 
 Go has problems building for arm
 
