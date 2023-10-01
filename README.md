@@ -1,12 +1,8 @@
 # Comment Content Aggregator
 ![screenshot](Screenshot.png)
 
-Go has problems building for arm
+Filter comments though an LLM to find users that are suggesting, requesting or otherwise generating, ideas for future content based on the description of a youtube video.
 
-NodeJS has no Queue for decoupled worker messaging
+Enter the URL to a youtube video and optionally enter a description for the video to begin parsing comments that may be ideas for future content. If no description is entered then the description given to youtube is used.
 
-Python Servers lack parallelism
-
-Java - I'd rather be blind
-
-C++ is slow to develop, but best looking option (using restinio for server else uWebsockets) (concurrentqueue for thread communication)
+Running on an M1 macbook resutls in ~30-160 tokens processed per second, so a comment take 4-11 seconds to determine content relevance.
